@@ -123,7 +123,7 @@ nav .active
     height: 150px;
 }
 
-#proyectos .fa-linkedin-in
+#proyectos .fa-linkedin-in, #sobre-mi .fa-linkedin-in
 {
     font-size: 28px;
     background-color: white;
@@ -142,7 +142,7 @@ nav .active
     font-size: 16px;
 }
 
-#proyectos .fa-github
+#proyectos .fa-github, #sobre-mi .fa-github
 {
     font-size: 38px;
     color: #e20000;
@@ -172,12 +172,12 @@ nav .active
     border: 1px solid #eee;
 }
 
-#proyectos footer, #proyectos footer a
+#proyectos footer, #proyectos footer a, #sobre-mi footer, #sobre-mi footer a
 {
     color: #E20000;
 }
 
-#proyectos .fa-whatsapp, #inicio .fa-whatsapp
+#proyectos .fa-whatsapp, #inicio .fa-whatsapp, #sobre-mi .fa-whatsapp
 {
     color:white
 }
@@ -188,6 +188,7 @@ nav .active
     background-color: #E20000;
     border-radius: 20px;
     text-decoration: none;
+    text-align: center;
     padding: 6px 12px;
     font-weight: 200;
 }
@@ -225,4 +226,16 @@ nav .active
 #inicio .btn-proyectos
 {
     border-radius: 20px;
+}
+
+#sobre-mi p
+{
+    font-size: 16px;
+    color: #6a6a6a;
+    text-align: justify;
+}
+
+#sobre-mi .pic-profile
+{
+    border-radius: 50%;
 }

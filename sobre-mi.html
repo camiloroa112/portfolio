@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" class="h-100">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,79 @@
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.css">
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/estilos.css">
-    <title>Sobre mí</title>
+    <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <title>Inicio</title>
 </head>
-<body>
-    
+<body id="sobre-mi" class="d-flex flex-column h-100">
+    <header class="container">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link mx-3 px-3" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-3 px-3 active" href="sobre-mi.html">Sobre mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-3 px-3" href="proyectos.html">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-3 px-3" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <ul class="float-sm-end nav-download mt-2">
+                        <li>
+                            <a href="" class="btn-rojo px-3 py-2">Descargar HV
+                                <i class="fa-solid fa-download"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="bio" class="container">
+            <div class="row">
+                <div class="col-12 col-sm-7">
+                    <h1 class="col-12 py-5">Acerca de mí</h1>
+                    <p>Soy profesional en Ingeniería Industrial egresado de la Universidad Militar Nueva Granada, con experiencia en automatización de procesos mediante el uso de herramientas como Python y Snowflake, en generar dashboards en Tableau y en el área del análisis de datos. Actualmente en proceso de formación en áreas como: Full Stack e Inteligencia Artificial.</p>
+                    <a href="contacto.html" class="btn-rojo my-5 d-none d-sm-block w-25">Enviar mensaje</a>
+                </div>
+                <div class="col-10 col-sm-3 py-5 pe-5 d-none d-sm-block">
+                    <img src="images/camilo-roa.jpg" alt="Camilo Roa" class="img-fluid pic-profile">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="container mt-auto py-4">
+        <div class="row">
+            <div class="col-4">
+                <a href="https://github.com/camiloroa112/portfolio" target="_blank" title="GitHub">
+                    <i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/camilo-r-78a245160/" target="_blank" title="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <div class="col-4">
+                Sponsor <a href="https://depcsuite.com">DePC Suite</a>
+            </div>
+            <div class="col-4">
+                <a href="mailto:camiloroa112@gmail.com">camiloroa112@gmail.com</a>
+            </div>
+        </div>
+        <div class="whatsapp pt-2 pb-3 px-3">
+            <a href="https://wa.me/573014725061" target="_blank" title="WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </div>
+    </div>
+    </footer>
 </body>
 </html>
