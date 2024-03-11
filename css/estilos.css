@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+#contacto
+{
+    background-image: url('../images/fondo-contacto.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+#proyectos
+{
+    background-image: url('../images/fondo-proyectos.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#inicio
+{
+    background-image: url('../images/fondo-contacto.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body
+{
+    font-family: "Monserrat", sans-serif;
+}
+
+h1
+{
+    font-size: 36px;
+    color: #E20000;
+}
+
+p
+{
+    font-size: 16px;
+    color: #6a6a6a;
+}
+
+nav .active
+{
+    border: 1px solid #E20000;
+    border-radius: 22px;
+}
+
+.btn-blanco
+{
+    background-color: white;
+    color: #370a6d;
+    border-radius: 20px;
+    padding: 6px 16px;
+}
+
+.btn-blanco:hover
+{
+    background-color: #370a6d;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-download
+{
+    list-style-type: none;
+}
+
+.btn-rojo
+{
+    color: white;
+    background-color: #E20000;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 6px 12px;
+    font-weight: 200;
+}
+
+.btn-rojo:hover
+{
+    background-color: #370a6d;
+    color: white;
+}
+
+#contacto footer, #contacto footer a, #inicio footer, #inicio footer a
+{
+    color: white;
+    font-weight: 400;
+}
+
+.whatsapp
+{
+    position: fixed;
+    right: 70px;
+    bottom: 0px;
+    font-size: 31px;
+    background-color: #370a6d;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#contacto .fa-github, #inicio .fa-github
+{
+    font-size: 38px;
+    color: white;
+}
+
+#contacto .fa-linkedin-in, #inicio .fa-linkedin-in
+{
+    font-size: 28px;
+    background-color: white;
+    border-radius: 22px;
+    padding: 8px 8px 4px 8px;
+    margin-left: 10px;
+    color: #E20000;
+}
+
+#proyectos .fa-github
+{
+    font-size: 38px;
+}
+
+#contacto textarea
+{
+    height: 150px;
+}
+
+#proyectos .fa-linkedin-in
+{
+    font-size: 28px;
+    background-color: white;
+    border-radius: 22px;
+    padding: 8px 8px 4px 8px;
+    margin-left: 10px;
+    color: #e20000;
+}
+
+#proyectos h2
+{
+    color: white;
+    background: linear-gradient(90deg, rgba(125, 7, 7, 1) 0%, rgba(215, 11, 11, 1) 100%);
+    font-weight: 400;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+
+#proyectos .fa-github
+{
+    font-size: 38px;
+    color: #e20000;
+}
+
+#proyectos p
+{
+    color: #6a6a6a;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.img-fluid
+{
+    height: 217px;
+    max-width: 100%;
+}
+
+#proyectos .descripcion
+{
+    padding: 4px 16px;
+}
+
+#proyectos .proyecto
+{
+    background-color: white;
+    border: 1px solid #eee;
+}
+
+#proyectos footer, #proyectos footer a
+{
+    color: #E20000;
+}
+
+#proyectos .fa-whatsapp, #inicio .fa-whatsapp
+{
+    color:white
+}
+
+.btn-rojo
+{
+    color: white;
+    background-color: #E20000;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 6px 12px;
+    font-weight: 200;
+}
+
+.btn-rojo:hover
+{
+    background-color: #370a6d;
+    color: white;
+}
+
+#proyectos .link-rojo
+{
+    color: #E20000;
+}
+
+#inicio img
+{
+    height: 400px;
+}
+
+#inicio p
+{
+    color: white;
+    border: 1px white solid;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+#inicio img:hover
+{
+    transform: scale(1.025);
+}
+
+#inicio .btn-proyectos
+{
+    border-radius: 20px;
+}
