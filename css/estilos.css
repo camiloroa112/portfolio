@@ -4,6 +4,7 @@
     background-image: url('../images/fondo-contacto.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     background-position: bottom;
 }
 
@@ -64,6 +65,14 @@ nav .active
 .nav-download
 {
     list-style-type: none;
+}
+
+.navbar-nav
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
 }
 
 #contacto footer, #contacto footer a, #inicio footer, #inicio footer a
